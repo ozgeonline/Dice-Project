@@ -1,0 +1,100 @@
+:root{
+    --body-color: #DFE9F2;
+    --title-color: #1C1C22;
+    --text-color: #58576B;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body,html{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./image/img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background:linear-gradient(130deg,#1E9600,#FFF200,#FF0000); */
+}
+.player{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    max-width: 35rem;
+    height: 70vh;
+    gap: 5rem;
+    background: linear-gradient(130deg,rgba(251,251,254,.6),rgba(251,251,254,.2));
+    box-shadow: inset 2px 2px 1px rgba(251,251,254,.3),inset 2px 2px 1px rgba(251,251,254,.3);
+    border-radius: 1.5rem;
+    backdrop-filter: blur(7px);
+    margin-bottom: 149px;
+}
+h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #DFE9F2;
+    text-shadow: 2px 2px 5px #DFE9F2;
+}
+h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    visibility: hidden;
+    color: #DFE9F2;
+    text-shadow: 2px 2px 7px #DFE9F2;
+    font-weight: bold;
+}
+.btn-div{
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 45px;
+}
+#btn{
+    width: 35rem;
+    height: 4rem;
+    font-size: 2rem;
+    color: #DFE9F2;
+    cursor: pointer;
+
+    background: linear-gradient(130deg,rgba(251,251,254,.6),rgba(251,251,254,.2));
+    box-shadow: inset 2px 2px 1px rgba(251,251,254,.3),inset 2px 2px 1px rgba(251,251,254,.3);
+    border-radius: 25px;
+    border: none;
+    backdrop-filter: blur(7px);
+}
+#btn:hover{
+    background: linear-gradient(60deg,rgba(5, 117, 230, 1),rgba(255, 0, 142, 1));
+    opacity: 0.6;
+}
+.visible{
+    visibility: visible;
+}
+#imageChance2,#imageChance{
+    width: 9rem;
+    height: 9rem;
+    background: linear-gradient(130deg,rgba(251,251,254,.6),rgba(251,251,254,.2));
+    opacity: 0.8;
+    border-radius: 15px;
+    box-shadow: 10px 10px 7px rgba(251,251,254,.2);
+}
+footer a{
+    text-decoration: none;
+    color:rgba(255, 0, 142, 1) ;
+}
+footer{
+    background-color: #0C134F;
+}
+small{
+    color: #DFE9F2;
+}
+
